@@ -1,0 +1,13 @@
+[nats]
+url = "nats://discoverer:password@127.0.0.1"
+db-chan = "db"
+ping-chan = "ping-default"
+
+[log]
+dir = "/var/log/dpoller/"
+debug = true
+
+[ch]
+max-interval = 5
+max-count = 10000
+connection-string = "tcp://10.10.10.123:9000?username=nms&password=password&database=lnms&compress=true&debug=false"
